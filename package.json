@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "NODE_ENV=local next dev",
+    "build": "NODE_ENV=local next build",
     "start": "next start",
     "test": "yarn type-check",
     "type-check": "tsc --noEmit",
